@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_height"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.converter.Height">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/btnLength"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:id="@+id/editText3" />
+
+    <TextView
+        android:text="@string/txtDescrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/txtDescrp" />
+
+    <CheckBox
+        android:text="@string/chkm2f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/txtDescrp"
+        android:layout_toStartOf="@+id/txtDescrp"
+        android:id="@+id/chkm2f" />
+
+    <CheckBox
+        android:text="@string/chkF2M"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/chkm2f"
+        android:layout_toRightOf="@+id/txtDescrp"
+        android:layout_toEndOf="@+id/txtDescrp"
+        android:id="@+id/chkF2M" />
+
+    <Button
+        android:text="@string/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp"
+        android:id="@+id/btnHome" />
+
+    <Button
+        android:text="@string/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkm2f"
+        android:layout_alignRight="@+id/btnHome"
+        android:layout_alignEnd="@+id/btnHome"
+        android:id="@+id/btnConvert" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="btnHome">HOME</string>
+    <string name="btnWeight">Weight</string>
+    <string name="btnSpeed">Speed</string>
+    <string name="btnLength">Length</string>
+    <string name="txtWeight">Weigth</string>
+    <string name="txtSpeed">Speed</string>
+    <string name="txtLength">Length</string>
+    <string name="txtDescrp">Enter Unit</string>
+    <string name="chklbs2kg">lbs2kg</string>
+    <string name="chkkg2lbs">kg2lbs</string>
+    <string name="chkmph2kph">mphs2kphs</string>
+    <string name="chkkph2mph">kphs2mphs</string>
+    <string name="chkF2M">ft2m</string>
+    <string name="chkm2f">m2ft</string>
+    <string name="btnConvert">Convert</string>
+</resources>
